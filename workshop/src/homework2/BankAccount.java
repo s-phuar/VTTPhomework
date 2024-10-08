@@ -61,7 +61,7 @@ public void setAccountClosure(LocalDateTime accountClosure) {this.accountClosure
 
 
 //Deposit monet
-public void Despoit(int money){
+public void Deposit(int money){
     if(money < 1 | this.closureStatus == true){
         throw new IllegalArgumentException("Input must be a positive number\n"); 
     }else{
