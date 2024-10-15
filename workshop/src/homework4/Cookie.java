@@ -12,6 +12,7 @@ import java.nio.file.Path;
 import java.util.Random;
 
 public class Cookie {
+
     
     public String cookie (Path p) throws FileNotFoundException, IOException{
 
