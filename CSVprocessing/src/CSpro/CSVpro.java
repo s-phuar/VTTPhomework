@@ -2,18 +2,12 @@ package CSpro;
 
 
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.FileNotFoundException;
-import java.io.Reader;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.ArrayList;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 
 
 //consider making an arraylist for each column e.g. app name, category, rating

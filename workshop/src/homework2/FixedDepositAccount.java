@@ -61,6 +61,20 @@ public class FixedDepositAccount {
         this.duration = duration;
     }
 
+    //getter setters
+    public String getName() {return name;}
+    public String getAccountNumber() {return accountNumber;}
+    public float getAccountBalance() {return accountBalance;}
+    public void setAccountBalance(float accountBalance) {this.accountBalance = accountBalance;}
+    public ArrayList<String> getTransactionList() {return transactionList;}
+    public void setTransactionList(ArrayList<String> transactionList) {this.transactionList = transactionList;}
+    public boolean isClosureStatus() {return closureStatus;}
+    public void setClosureStatus(boolean closureStatus) {this.closureStatus = closureStatus;}
+    public LocalDateTime getAccountCreation() {return accountCreation;}
+    public LocalDateTime getAccountClosure() {return accountClosure;}
+    public void setAccountClosure(LocalDateTime accountClosure) {this.accountClosure = accountClosure;}
+
+
     //methods
     public void Despoit(int money){
         //Deposit monet that does NOTHING
@@ -71,6 +85,10 @@ public class FixedDepositAccount {
         //Withdraw money that does NOTHING
     }
 
+    public static void main(String[] args){
+        FixedDepositAccount FDacc = new FixedDepositAccount("John", 500, 2, 6);
+        System.out.println(FDacc);
+    }
 
 
 }
