@@ -1,1 +1,3 @@
 samuel
+fred
+barney
