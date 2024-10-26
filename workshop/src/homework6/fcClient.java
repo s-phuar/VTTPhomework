@@ -58,7 +58,7 @@ public class fcClient {
         break;
 
         case "close":
-            System.out.println("closing connection");
+            System.out.println("closing connection to server");
             bw.write("close");
             bw.newLine();
             bw.flush();
